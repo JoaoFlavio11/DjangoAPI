@@ -1,0 +1,64 @@
+# Diretórios comuns de ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de log
+*.log
+
+# Arquivos de cache do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Diretórios de pacotes distribuíveis
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Configurações de SO
+.DS_Store
+Thumbs.db
+
+# Arquivos de banco de dados local
+*.sqlite3
+
+# Arquivos de configuração sensíveis
+*.env
+.env.*
+
+# Arquivos de teste de cobertura e relatórios
+.coverage
+.tox/
+.nox/
+*.cover
+*.coverage.*
+*.cache
+pytest_cache/
+htmlcov/
+coverage.xml
+
+# Arquivos de blocos do mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Outros arquivos
+*.pot
+*.po
+*.mo
+*.pid
+
+# Arquivos de containers Docker e PyInstaller
+*.spec
