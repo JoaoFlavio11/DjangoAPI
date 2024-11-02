@@ -10,3 +10,8 @@ class AvaliacaoSchema(ModelSchema):
     class Meta:
         model = Livros
         fields = ['nota','comentarios']
+
+class FiltrosSchema(Schema):
+    nota_minima: int = None
+    categoriasS: int = None
+    reler: bool = False
